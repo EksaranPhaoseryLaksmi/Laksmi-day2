@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How the Internet Works</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            background-color: white;
+            margin: 10px;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>How the Internet Works</h1>
+    </header>
+
+    <section>
+        <h2>1. User Request</h2>
+        <p>
+            The process starts when a user types a URL (like www.example.com) in their browser. This request is sent to the Domain Name System (DNS) server to translate the domain name into an IP address, which is the address of the server hosting the website.
+        </p>
+    </section>
+
+    <section>
+        <h2>2. DNS Lookup</h2>
+        <p>
+            The DNS server searches for the IP address associated with the domain name. Once it finds the IP address, it sends this information back to the browser.
+        </p>
+    </section>
+
+    <section>
+        <h2>3. Connecting to the Server</h2>
+        <p>
+            Now that the browser knows the IP address, it sends a request to that server. The server receives the request and processes it, preparing the website's data (such as HTML, CSS, and images).
+        </p>
+    </section>
+
+    <section>
+        <h2>4. Data Transfer</h2>
+        <p>
+            The website data is then sent back to the user's browser through the internet. The data is transmitted as packets using the TCP/IP protocol, which ensures that the data arrives intact and in order.
+        </p>
+    </section>
+
+    <section>
+        <h2>5. Rendering the Page</h2>
+        <p>
+            Finally, the browser receives the data and renders the website on the user's screen. It combines the HTML structure, CSS styling, and JavaScript functionality to display the webpage.
+        </p>
+    </section>
+
+</body>
+</html>
